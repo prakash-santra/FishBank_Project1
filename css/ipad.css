@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav2::before{
+    width: 185%;
+    
+}
+.intro{
+    left: 42%;
+}
+.fish img:nth-child(5){
+    display: none;
+}
+@keyframes fish{
+    0%{
+        transform: translateX(0%);
+        opacity: 0.4;
+    }
+  
+    100%{
+        transform: translateX(102vw);
+        opacity: 0.2;
+    }
+}
+.home{
+    display: inline-block;
+    text-align: center;
+    background: #072c2c;
+    height: fit-content;
+    transform: translate(0%,14rem);
+    width: 171%;
+}
+.box img {
+    height: 154px;
+    padding: 0px;
+}
+.ourservice{
+    transform: translate(50% ,19rem);
+}
+.aboutus{
+    transform: translate(50%, 31rem)
+}
+.contactus{
+    transform: translate(50%, 34rem);
+    width: 98%;
+
+}
